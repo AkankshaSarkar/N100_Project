@@ -1,0 +1,17 @@
+cid,name,type,notnull,dflt_value,pk
+0,id,INTEGER,0,,0
+1,company_id,TEXT,0,,0
+2,year,TEXT,0,,0
+3,net_profit_margin_pct,REAL,0,,0
+4,operating_profit_margin_pct,REAL,0,,0
+5,return_on_equity_pct,REAL,0,,0
+6,debt_to_equity,REAL,0,,0
+7,interest_coverage,REAL,0,,0
+8,asset_turnover,REAL,0,,0
+9,free_cash_flow_cr,REAL,0,,0
+10,capex_cr,REAL,0,,0
+11,earnings_per_share,REAL,0,,0
+12,book_value_per_share,REAL,0,,0
+13,dividend_payout_ratio_pct,REAL,0,,0
+14,total_debt_cr,INTEGER,0,,0
+15,cash_from_operations_cr,REAL,0,,0

@@ -1,0 +1,13 @@
+table_name,row_count,status
+analysis,21,Loaded
+balancesheet,1313,Loaded
+cashflow,1188,Loaded
+companies,93,Loaded
+documents,1586,Loaded
+financial_ratios,1184,Loaded
+market_cap,552,Loaded
+peer_groups,56,Loaded
+profitandloss,1277,Loaded
+prosandcons,17,Loaded
+sectors,92,Loaded
+stock_prices,5520,Loaded

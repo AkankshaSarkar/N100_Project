@@ -1,0 +1,2 @@
+rule,severity,status
+Companies table not empty,INFO,PASS
