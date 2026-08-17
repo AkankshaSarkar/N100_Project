@@ -10,8 +10,13 @@ conn = sqlite3.connect(DB_PATH)
 excel_files = DATA_PATH.glob("*.xlsx")
 
 for file in excel_files:
-    df = pd.read_excel(file, header=0)
 
+    if file.stem.lower() == "companies":
+        df = pd.read_excel(file, header=1)
+    elif file.stem.lower() == "profitandloss":
+        df = pd.read_excel(file, header=2)
+    else:
+        df = pd.read_excel(file, header=0)
     table_name = file.stem.lower()
 
     df.to_sql(

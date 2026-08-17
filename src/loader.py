@@ -11,6 +11,7 @@ print(f"Total files found: {len(excel_files)}\n")
 datasets = {}
 
 for file in excel_files:
+    
     df = pd.read_excel(file, header=1)
     df = normalize_ticker(df)
     df = normalize_year(df)
