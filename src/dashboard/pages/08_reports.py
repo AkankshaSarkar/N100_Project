@@ -8,15 +8,11 @@ st.title("Reports")
 st.write("Generate and download analytical reports from the Nifty 100 database.")
 
 
-# --------------------------------
 # Database connection
-# --------------------------------
 conn = get_connection()
 
-
-# --------------------------------
 # Report type
-# --------------------------------
+
 report_type = st.selectbox(
     "Select Report",
     [
@@ -25,10 +21,7 @@ report_type = st.selectbox(
     ]
 )
 
-
-# =========================================================
 # COMPANY FINANCIAL REPORT
-# =========================================================
 if report_type == "Company Financial Report":
 
     st.subheader("Company Financial Report")
@@ -90,11 +83,7 @@ if report_type == "Company Financial Report":
             file_name="company_financial_report.csv",
             mime="text/csv"
         )
-
-
-# =========================================================
 # SECTOR SUMMARY REPORT
-# =========================================================
 else:
 
     st.subheader("Sector Summary Report")
