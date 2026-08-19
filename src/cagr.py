@@ -16,3 +16,6 @@ def profit_cagr(start_profit, end_profit, years):
 
 def eps_cagr(start_eps, end_eps, years):
     return cagr(start_eps, end_eps, years)
+
+def fcf_cagr(start_fcf, end_fcf, years):
+    return cagr(start_fcf, end_fcf, years)
